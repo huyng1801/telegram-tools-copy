@@ -1896,13 +1896,6 @@ QFrame#frmFooter QPushButton#btnCopyKey{
                      </layout>
                     </widget>
                    </item>
-                   <item>
-                    <widget class="QPushButton" name="btnSaveFileHadFilter">
-                     <property name="text">
-                      <string>Lưu File Đã lọc</string>
-                     </property>
-                    </widget>
-                   </item>
                   </layout>
                  </widget>
                 </item>
