@@ -1,0 +1,51 @@
+<RCC>
+  <qresource prefix="images">
+    <file>icons/header/icons8-message-50.png</file>
+    <file>icons/login/icons8-email-24.png</file>
+    <file>icons/login/119254-abstract-bright-blue-background-graphic-design.jpg</file>
+    <file>icons/login/login-bg.png</file>
+    <file>icons/login/icons8-password-24.png</file>
+    <file>icons/login/icons8-user-24.png</file>
+    <file>icons/chat/icons8-user-item-48.png</file>
+    <file>icons/chat/icons8-user-48.png</file>
+    <file>icons/chat/icons8-user-groups-48.png</file>
+    <file>icons/header/icons8-circle-50.png</file>
+    <file>icons/header/icons8-radio-button-checked-50.png</file>
+    <file>icons/header/icons8-radio-button-hover-50.png</file>
+    <file>icons/header/icons8-check-mark-gray-50.png</file>
+    <file>icons/header/icons8-maximize-button-50.png</file>
+    <file>icons/start/Copy Right.png</file>
+    <file>icons/start/Facebook.png</file>
+    <file>icons/start/image 3.png</file>
+    <file>icons/start/logo_start.png</file>
+    <file>icons/start/Send.png</file>
+    <file>icons/start/Store 2.png</file>
+    <file>icons/start/Web.png</file>
+    <file>icons/start/Youtube.png</file>
+    <file>icons/header/logo.png</file>
+    <file>icons/header/icons8-check-mark-50.png</file>
+    <file>icons/sidebar/icons8-home-50.png</file>
+    <file>icons/header/icons8-minimize-50.png</file>
+    <file>icons/header/icons8-shop-100.png</file>
+    <file>icons/header/china.png</file>
+    <file>icons/header/english.png</file>
+    <file>icons/header/icons8-close-50.png</file>
+    <file>icons/header/vietnam.png</file>
+    <file>icons/sidebar/icons8-add-folder-50.png</file>
+    <file>icons/sidebar/icons8-copy-50.png</file>
+    <file>icons/sidebar/icons8-scan-50.png</file>
+    <file>icons/sidebar/icons8-add-user-50.png</file>
+    <file>icons/sidebar/icons8-change-user-50.png</file>
+    <file>icons/sidebar/icons8-check-50.png</file>
+    <file>icons/sidebar/icons8-clone-50.png</file>
+    <file>icons/sidebar/icons8-emotion-50.png</file>
+    <file>icons/sidebar/icons8-exit-50.png</file>
+    <file>icons/sidebar/icons8-eye-50.png</file>
+    <file>icons/sidebar/icons8-member-50.png</file>
+    <file>icons/sidebar/icons8-phone-50.png</file>
+    <file>icons/sidebar/icons8-send-50.png</file>
+    <file>icons/sidebar/icons8-settings-50.png</file>
+    <file>icons/sidebar/icons8-collapse-arrow-50.png</file>
+    <file>icons/sidebar/icons8-expand-arrow-50.png</file>
+  </qresource>
+</RCC>

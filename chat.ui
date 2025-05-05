@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatForm</class>
+ <widget class="QWidget" name="ChatForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#wtSidebar QPushButton {
+    background-color: transparent;
+    color: #1677FF;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+}
+
+QWidget#wtSidebar QPushButton:hover {
+    border-bottom: 2px solid #1677FF;
+}
+
+#wtSidebarHeader {
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#wtSidebar QListWidget {
+    border: none;
+    background-color: white;
+}
+
+#wtMessage QListWidget {
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+
+#wtSidebar QListWidget::item {
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+
+#wtChatHeader {
+    background: white;
+    border-left: 1px solid #d9d9d9;
+}
+
+#wtChatHeader QLabel {
+    font: 10pt &quot;MS Shell Dlg 2&quot;;
+}
+
+#wtInput {
+    background: white;
+    border-left: 1px solid #d9d9d9;
+}
+
+#wtInput QLineEdit {
+    background: white;
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#wtInput QPushButton {
+    color: white;
+    background: #1677ff;
+    padding: 9px;
+    border-radius: 8px;
+}
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="wtContainer" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="wtSidebar" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="wtSidebarHeader" native="true">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,11">
+            <item>
+             <widget class="QPushButton" name="btnChatRoom">
+              <property name="text">
+               <string>Phòng chat</string>
+              </property>
+              <property name="icon">
+               <iconset resource="src.qrc">
+                <normaloff>:/images/icons/chat/icons8-user-groups-48.png</normaloff>:/images/icons/chat/icons8-user-groups-48.png</iconset>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnUser">
+              <property name="text">
+               <string>Người dùng</string>
+              </property>
+              <property name="icon">
+               <iconset resource="src.qrc">
+                <normaloff>:/images/icons/chat/icons8-user-48.png</normaloff>:/images/icons/chat/icons8-user-48.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>15</width>
+                <height>15</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_2" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="lstContact">
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>New Item</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="wtChat" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,10,1">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="wtChatHeader" native="true">
+           <widget class="QLabel" name="labelRoomName">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>55</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Tên</string>
+            </property>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="wtMessage" native="true">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QListWidget" name="lstMessage">
+              <property name="selectionMode">
+               <enum>QAbstractItemView::NoSelection</enum>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="wtInput" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLineEdit" name="txtInputMessage"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="btnSendMessage">
+              <property name="text">
+               <string>Gửi</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

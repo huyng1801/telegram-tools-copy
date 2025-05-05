@@ -1,0 +1,2 @@
+
+    def toggleMaximized(self):
